@@ -1,4 +1,4 @@
-git import pdfplumber
+import pdfplumber
 import streamlit as st
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from google import genai
