@@ -14,8 +14,9 @@ import os
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 
 
-load_dotenv()
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+# load_dotenv()
+# GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
 
 # UI part
 st.header("My Chatbot")
